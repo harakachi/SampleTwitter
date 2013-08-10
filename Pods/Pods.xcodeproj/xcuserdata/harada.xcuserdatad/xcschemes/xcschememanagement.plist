@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>Pods-GHUnitTests-AFNetworking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>Pods-GHUnitTests-GHUnitIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,7 +42,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>244520BFD0DB416AB5214261</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>281391F3F53D4A29BCE90FA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>47EC6E8CF4494A589688EE0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>49DC4854E7804350B489DD92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,12 +67,42 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>5D69ED417E09487C84601F10</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60F1364110F747DF9E54A229</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71DADF2753FC49FD830B64F2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7C57752B06B04EF3A0620069</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B05FDD919D3848F0B6482E16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>BF888A6EC11F40DBAC3F2E86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CE9E22C5552641A4B7F823A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0BB25F9C4094F428AA373EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

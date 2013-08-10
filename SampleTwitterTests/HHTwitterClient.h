@@ -7,12 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AFJSONRequestOperation.h"
+
+typedef enum {
+    TwitterClientResponseStatusSuccess,
+    TwitterClientResponseStatusFail
+} TwitterClientResponseStatus;
 
 @interface HHTwitterClient : NSObject
 {
     NSMutableArray *_tweets;
 }
 
+- (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback;
 - (void)requestPublicTimeline;
 - (int)tweetCount;
 

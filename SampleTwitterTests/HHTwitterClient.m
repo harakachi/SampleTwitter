@@ -7,7 +7,6 @@
 //
 
 #import "HHTwitterClient.h"
-#import "AFJSONRequestOperation.h"
 
 @implementation HHTwitterClient
 
@@ -18,6 +17,27 @@
     }
     return self;
 }
+
+- (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback
+{
+    NSURL *url = [NSURL URLWithString:@"https://api.twitter.com/1/statuses/public_timeline.json?count=20"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
+                                                                                        success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON){
+                                                                                            
+                                                                                            NSLog(@"%@", JSON);
+                                                                                            callback(TwitterClientResponseStatusSuccess);
+                                                                                            
+                                                                                        }
+                                                                                        failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON){
+                                                                                            
+                                                                                            callback(TwitterClientResponseStatusFail);
+                                                                                        }];
+    //NSOperationQueue *queue = [[[NSOperationQueue alloc] init] autorelease];
+    //[queue addOperation:operation];
+    
+}
+
 - (void)requestPublicTimeline
 {
     for (int i=0; i < 20; i++) {

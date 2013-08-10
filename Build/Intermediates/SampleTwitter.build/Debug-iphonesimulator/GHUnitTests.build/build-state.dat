@@ -5,15 +5,15 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist GHUnitTests/GHUnitTests-Info.plist
 cPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh
 cProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests normal i386
 cGenerateDSYMFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests
 cCpResource GHUnitTests/Default.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png
-cCopyStringsFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings GHUnitTests/en.lproj/InfoPlist.strings
 cCpResource GHUnitTests/Default@2x.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png
 cCpResource GHUnitTests/Default-568h@2x.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png
+cCopyStringsFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings GHUnitTests/en.lproj/InfoPlist.strings
 cPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh
 cTouch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app
 
@@ -37,10 +37,25 @@ c000000005177CCAF00000000000015F7
 t1366805679
 s5623
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005177CCB200000000000BCC20
+t1366805682
+s773152
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 c000000005177CCB300000000001D5750
 t1366805683
 s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005177CCB3000000000006E360
+t1366805683
+s451424
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005177CCB3000000000006CC50
+t1366805683
+s445520
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000005177CCB30000000000000E8D
@@ -57,243 +72,244 @@ c000000005177CCC20000000000001B73
 t1366805698
 s7027
 
-N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.pth
-t1376112243
-s4678432
-
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth
-t1376115297
+t1376121034
 s4678432
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/GHUnitTests.LinkFileList
-c000000005205CF8C00000000000001D6
-t1376112524
+c000000005205F0CA00000000000001D6
+t1376121034
 s470
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o
-t1376115297
-s7904
+t1376121283
+s18572
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o
-t1376115297
+t1376121283
 s14592
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o
-t1376115297
+t1376121034
 s3000
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh
-c000000005205CE72000000000000003B
-t1376112242
+c000000005205F0CA000000000000003B
+t1376121034
 s59
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh
-c000000005205CE720000000000000103
-t1376112242
+c000000005205F0CA0000000000000103
+t1376121034
 s259
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app
-t1376115297
-s306
+t1376121253
+s272
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM
-t1376115297
+t1376121034
 s102
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png
-t1376112243
+t1376121034
 s18594
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png
-t1376112243
+t1376121034
 s6540
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png
-t1376112243
+t1376121034
 s16107
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests
-t1376115297
-s340948
+t2
+s0
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist
-t1376112242
+t1376121034
 s803
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/PkgInfo
-t1376112242
+t1376121034
 s8
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings
-t1376112243
+t1376121034
 s42
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a
-c000000005205DA600000000000159968
-t1376115296
-s1415528
+c000000005205F2630000000000225248
+t1376121443
+s2249288
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default-568h@2x.png
-c00000000515C9E6200000000000048A2
-t1365024354
+c000000005205F08500000000000048A2
+t1376120965
 s18594
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default.png
-c00000000515C9E62000000000000198C
-t1365024354
+c000000005205F085000000000000198C
+t1376120965
 s6540
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default@2x.png
-c00000000515C9E620000000000003EEB
-t1365024354
+c000000005205F0850000000000003EEB
+t1376120965
 s16107
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch
-c000000005205CCEC0000000000000145
-t1376111852
+c000000005205F0850000000000000145
+t1376120965
 s325
 i<Availability.h>
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.h
-c000000005205CF6F00000000000000E6
-t1376112495
+c000000005205F08500000000000000E6
+t1376120965
 s230
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m
-c000000005205D3E3000000000000023D
-t1376113635
+c000000005205F085000000000000023D
+t1376120965
 s573
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/en.lproj/InfoPlist.strings
-c000000005205CCEC000000000000002D
-t1376111852
+c000000005205F085000000000000002D
+t1376120965
 s45
 
 N/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m
-c000000005205CE700000000000000151
-t1376112240
+c000000005205F0850000000000000151
+t1376120965
 s337
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFHTTPRequestOperation.h
-c000000005205DA4B0000000000001907
-t1376115275
+c000000005205F0850000000000001907
+t1376120965
 s6407
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFJSONRequestOperation.h
-c000000005205DA4B0000000000000E83
-t1376115275
+c000000005205F0850000000000000E83
+t1376120965
 s3715
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFURLConnectionOperation.h
-c000000005205DA4B0000000000004A28
-t1376115275
+c000000005205F0850000000000004A28
+t1376120965
 s18984
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHAsyncTestCase.h
-c000000005205CDDA00000000000012C4
-t1376112090
+c000000005205F08500000000000012C4
+t1376120965
 s4804
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTest+JUnitXML.h
-c000000005205CDDA00000000000005BC
-t1376112090
+c000000005205F08500000000000005BC
+t1376120965
 s1468
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTest.h
-c000000005205CDDA0000000000001A0A
-t1376112090
+c000000005205F0850000000000001A0A
+t1376120965
 s6666
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestCase.h
-c000000005205CDDA0000000000001269
-t1376112090
+c000000005205F0850000000000001269
+t1376120965
 s4713
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestGroup+JUnitXML.h
-c000000005205CDDA0000000000000598
-t1376112090
+c000000005205F0850000000000000598
+t1376120965
 s1432
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestGroup.h
-c000000005205CDDA0000000000001586
-t1376112090
+c000000005205F0850000000000001586
+t1376120965
 s5510
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestMacros.h
-c000000005205CDDA000000000000A0AB
-t1376112090
+c000000005205F085000000000000A0AB
+t1376120965
 s41131
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestOperation.h
-c000000005205CDDA000000000000062B
-t1376112090
+c000000005205F085000000000000062B
+t1376120965
 s1579
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestRunner.h
-c000000005205CDDA0000000000001653
-t1376112090
+c000000005205F0850000000000001653
+t1376120965
 s5715
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestSuite.h
-c000000005205CDDA0000000000000ED7
-t1376112090
+c000000005205F0850000000000000ED7
+t1376120965
 s3799
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestUtils.h
-c000000005205CDDA0000000000000888
-t1376112090
+c000000005205F0850000000000000888
+t1376120965
 s2184
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTesting.h
-c000000005205CDDA00000000000010F6
-t1376112090
+c000000005205F08500000000000010F6
+t1376120965
 s4342
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHUnit.h
-c000000005205CDDA0000000000000783
-t1376112090
+c000000005205F0850000000000000783
+t1376120965
 s1923
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHUnitIOSAppDelegate.h
-c000000005205CDDA00000000000005C4
-t1376112090
+c000000005205F08500000000000005C4
+t1376120965
 s1476
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHViewTestCase.h
-c000000005205CDDA000000000000139B
-t1376112090
+c000000005205F085000000000000139B
+t1376120965
 s5019
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/NSException+GHTestFailureExceptions.h
-c000000005205CDDA00000000000010C0
-t1376112090
+c000000005205F08500000000000010C0
+t1376120965
 s4288
 
 N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/NSValue+GHValueFormatter.h
-c000000005205CDDA0000000000000BF7
-t1376112090
+c000000005205F0850000000000000BF7
+t1376120965
 s3063
 
+N/Users/harada/Desktop/work/SampleTwitter/Pods/build/Release-iphoneos/libPods.a
+c00000000000000000000000000000000
+t2
+s0
+
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.h
-c00000000520577EB0000000000000184
-t1376090091
+c000000005205F0850000000000000184
+t1376120965
 s388
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.h
-c000000005205D408000000000000013F
-t1376113672
-s319
+c000000005205F1C20000000000000233
+t1376121282
+s563
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m
-c000000005205DA88000000000000020F
-t1376115336
-s527
+c000000005205F1C30000000000000872
+t1376121283
+s2162
 
 NGHUnitTests/GHUnitTests-Info.plist
-c000000005205CCEC000000000000048B
-t1376111852
+c000000005205F085000000000000048B
+t1376120965
 s1163
 
 CBuild AST from /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m
@@ -307,11 +323,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies77d8380812b6b741^6422390812b6b741^---0#1#0#--18"Check dependencies36"54176759-C006-436C-A413-566A865C0525-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesec69c71d2db6b741^3deecb1d2db6b741^---0#1#0#--18"Check dependencies36"800E9546-B072-426D-919C-F9CBE53CEF62-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397808136.321062
-e397808136.370608
+s397814083.290129
+e397814083.387048
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o
@@ -320,11 +336,15 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m1765520812b6b741^40df5e0812b6b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m0000000000000000^3878"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o36"090D9FD2-BDA9-441D-B18F-A5962F5444CE-
+o/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m:25:29: warning: unused variable 'operation' [-Wunused-variable]
+o    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
+o                            ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m2a744a4329b6b741^1f11634329b6b741^-297"/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m:25:29: warning: unused variable 'operation' [-Wunused-variable]    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request                            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@27"Unused variable 'operation'-397814083#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@93"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m0000000000000000^24#28#24#28#616#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@93"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m0000000000000000^3878"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClient.o36"FCD2E5D1-EF20-4FDA-8D8E-DDE47863494B-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397808097.217242
-e397808097.301994
+s397814083.287605
+e397814083.392386
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o
@@ -333,11 +353,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m450f38e111b6b741^484f4de111b6b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m0000000000000000^3888"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o GHUnitTests/HHTwitterClientTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o36"C6F660F1-C8F3-472B-888C-343948060EBF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m0fd0494329b6b741^03b5644329b6b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m0000000000000000^3888"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o GHUnitTests/HHTwitterClientTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/HHTwitterClientTest.o36"F4EE0F1A-6A82-49CE-AD93-7546462BC661-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397808097.217194
-e397808097.263648
+s397813834.526374
+e397813834.582843
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o
@@ -346,75 +366,75 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.maf0638e111b6b741^b77d43e111b6b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m0000000000000000^3798"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o GHUnitTests/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o36"60A97CF5-DF7B-48C5-A71E-59FBBDC95719-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m6bf4864a28b6b741^8b34954a28b6b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m0000000000000000^3798"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o GHUnitTests/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/main.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/main.o36"5F7B978A-B796-4E5E-9E7C-AFF7CBC7F6F3-
 
 CCopyStringsFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings GHUnitTests/en.lproj/InfoPlist.strings
-s397805043.733959
-e397805043.741799
+s397813834.849436
+e397813834.855465
 r1
 xCopyStringsFile
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings
 xGHUnitTests/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy GHUnitTests/en.lproj/InfoPlist.strings651bbcf305b6b741^cde6bdf305b6b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/en.lproj/InfoPlist.strings0000000000000000^792"CopyStringsFile Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings GHUnitTests/en.lproj/InfoPlist.strings    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj -- GHUnitTests/en.lproj/InfoPlist.strings36"96FC66CC-C40B-4752-A640-5CB273A75228-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy GHUnitTests/en.lproj/InfoPlist.strings849ed94a28b6b741^ee08db4a28b6b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/en.lproj/InfoPlist.strings0000000000000000^792"CopyStringsFile Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj/InfoPlist.strings GHUnitTests/en.lproj/InfoPlist.strings    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/en.lproj -- GHUnitTests/en.lproj/InfoPlist.strings36"972AC7BA-5338-453C-B385-299B4B557BEB-
 
 CCpResource GHUnitTests/Default-568h@2x.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png
-s397805043.734159
-e397805043.740033
+s397813834.851609
+e397813834.859998
 r1
 xCpResource
 xGHUnitTests/Default-568h@2x.png
 xBuild/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.pngcb13bcf305b6b741^f375bdf305b6b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png000000000080d041^823"CpResource "GHUnitTests/Default-568h@2x.png" "Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png"    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default-568h@2x.png" /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"8C965AD7-7962-4550-8962-ECA883A7C661-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png9e27da4a28b6b741^904bdc4a28b6b741^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png000000000080d041^823"CpResource "GHUnitTests/Default-568h@2x.png" "Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default-568h@2x.png"    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default-568h@2x.png" /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"A66DF05F-A960-450D-B356-ECC320960431-
 
 CCpResource GHUnitTests/Default.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png
-s397805043.733943
-e397805043.738365
+s397813834.850267
+e397813834.857086
 r1
 xCpResource
 xGHUnitTests/Default.png
 xBuild/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png3c11bcf305b6b741^4b05bdf305b6b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png000000000080d041^793"CpResource GHUnitTests/Default.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default.png /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"6D5E4DC9-7DB0-4FFE-A14D-90A5BAF46C0A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png89ead94a28b6b741^4469db4a28b6b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png000000000080d041^793"CpResource GHUnitTests/Default.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default.png    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default.png /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"2374BA5D-E22C-45FB-A6C1-514B9295ED23-
 
 CCpResource GHUnitTests/Default@2x.png Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png
-s397805043.733979
-e397805043.741042
+s397813834.851600
+e397813834.858324
 r1
 xCpResource
 xGHUnitTests/Default@2x.png
 xBuild/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png9015bcf305b6b741^9ab4bdf305b6b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png000000000080d041^808"CpResource "GHUnitTests/Default@2x.png" "Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png"    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default@2x.png" /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"A9194773-B3CD-4E1D-8D3E-EA171F644D38-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.pngb326da4a28b6b741^0dc7db4a28b6b741^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png000000000080d041^808"CpResource "GHUnitTests/Default@2x.png" "Build/Products/Debug-iphonesimulator/GHUnitTests.app/Default@2x.png"    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/Default@2x.png" /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"33A8C124-D3D4-4561-8488-5E16260E5AEC-
 
 CGenerateDSYMFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests
-s397808136.444763
-e397808136.512060
+s397815070.009356
+e397815070.137558
 r1
 xGenerateDSYMFile
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generate /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYMdff9710812b6b741^c615830812b6b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM/0000000000000000^870"GenerateDSYMFile Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM36"C1E1B60E-8918-4FAB-84A3-DC59A5BB8B56-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generate /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYMc592021e2db6b741^cf32231e2db6b741^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM/0000000000000000^870"GenerateDSYMFile Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app.dSYM36"DD93F251-F846-48EE-8C63-B435DA45EA21-
 
 CLd /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests normal i386
-s397808136.377511
-e397808136.438512
+s397815069.882760
+e397815070.002949
 r1
 xLd
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests88bd600812b6b741^6342700812b6b741^---0#0#0#--1473"Ld Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests normal i386    cd /Users/harada/Desktop/work/SampleTwitter    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/GHUnitTests.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lPods-GHUnitTests -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests36"E0A2FFEF-9BAC-43A4-A740-8339B64E1AFC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests669fe31d2db6b741^a8c5001e2db6b741^---0#0#0#--1554"Ld Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests normal i386    cd /Users/harada/Desktop/work/SampleTwitter    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Objects-normal/i386/GHUnitTests.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework Security -framework MobileCoreServices -framework SystemConfiguration -framework QuartzCore -framework UIKit -framework Foundation -framework CoreGraphics -lPods-GHUnitTests -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/GHUnitTests36"E4FFC708-64EC-4E2E-9738-8798983555D0-
 
 CPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh
-s397808136.261050
-e397808136.306307
+s397815069.815438
+e397815069.854985
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'bc41440812b6b741^6e684e0812b6b741^---0#0#0#--382"PhaseScriptExecution "Check Pods Manifest.lock" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh36"08E483EF-E046-4A55-B182-00BEC754EE0C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'7fdcd21d2db6b741^2578db1d2db6b741^---0#0#0#--382"PhaseScriptExecution "Check Pods Manifest.lock" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-730B93D56DEF4A47918628E5.sh36"DD63CEEB-CE54-4DE1-985E-58ED478E04C7-
 
 CPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh
-s397808136.529473
-e397808136.612831
+s397815070.158756
+e397815070.263670
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -423,33 +443,20 @@ obuilding file list ... done
 o
 osent 29 bytes  received 20 bytes  98.00 bytes/sec
 ototal size is 0  speedup is 0.00
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'9205880812b6b741^93e19c0812b6b741^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-397808136#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-397808136#29#50#-0#-----2@33"total size is 0  speedup is 0.00-397808136#79#33#-0#-----0#0#0#--377"PhaseScriptExecution "Copy Pods Resources" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh36"B79BE10F-8FD7-4A0C-AC38-0C03F2E4164F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'1cb52a1e2db6b741^2c7e431e2db6b741^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-397815070#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-397815070#29#50#-0#-----2@33"total size is 0  speedup is 0.00-397815070#79#33#-0#-----0#0#0#--377"PhaseScriptExecution "Copy Pods Resources" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/Script-33C79F3B4C8649B085A1B28E.sh36"11B2DC24-4B89-41AF-A72A-BF9971B0076D-
 
 CProcessInfoPlistFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist GHUnitTests/GHUnitTests-Info.plist
-s397805042.973524
-e397805042.978126
+s397813834.151576
+e397813834.156086
 r1
 xProcessInfoPlistFile
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist
 xGHUnitTests/GHUnitTests-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process GHUnitTests/GHUnitTests-Info.plist0d55f9f205b6b741^bf7cfaf205b6b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Info.plist0000000000000000^890"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist GHUnitTests/GHUnitTests-Info.plist    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility GHUnitTests/GHUnitTests-Info.plist -genpkginfo /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist36"47F5CC85-68B1-4661-8D14-7B842A39ABAF-
-
-CProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397805043.043921
-e397805043.378189
-r1
-xProcessPCH
-x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.pth
-xGHUnitTests/GHUnitTests-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile GHUnitTests/GHUnitTests-Prefix.pchd8620bf305b6b741^63f060f305b6b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch0000000000000000^3634"ProcessPCH Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.pth -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-aisayzuvwwlqyhebpuddmqfnqvbw/GHUnitTests-Prefix.pch.d36"53A332CD-840B-4039-86D7-D2116C5DAABF-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process GHUnitTests/GHUnitTests-Info.plistdcf1264a28b6b741^45a1294a28b6b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Info.plist0000000000000000^890"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist GHUnitTests/GHUnitTests-Info.plist    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility GHUnitTests/GHUnitTests-Info.plist -genpkginfo /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app/Info.plist36"53C6E4E6-B785-4E15-AC72-FBD1A45A58B0-
 
 CProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397808096.893955
-e397808097.209915
+s397813834.209970
+e397813834.519490
 r1
 xProcessPCH
 x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth
@@ -458,19 +465,16 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile GHUnitTests/GHUnitTests-Prefix.pchd80be5e011b6b741^45bc35e111b6b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch0000000000000000^3703"ProcessPCH Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.d36"109C535D-7E05-4B03-B924-E781505BF6D8-
-
-CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/SampleTwitter-gyxfqxhnmpguwfegszwtomgqtent/Index/PrecompiledHeaders/GHUnitTests-Prefix-bifxgsrqrvfrbgdxdesqeyczbqzz_ast/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile GHUnitTests/GHUnitTests-Prefix.pch85ef354a28b6b741^c6fc844a28b6b741^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch0000000000000000^3703"ProcessPCH Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.dia -c /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/GHUnitTests-Prefix.pch -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.pth -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/GHUnitTests-Prefix-bpnagyswgltjzifqqwbgnmhdxgmq/GHUnitTests-Prefix.pch.d36"9547390D-24AB-46F8-A35B-1F17BBC6FD8C-
 
 CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/SampleTwitter-gyxfqxhnmpguwfegszwtomgqtent/Index/PrecompiledHeaders/GHUnitTests-Prefix-hgnwodvzulovodcjobrhrstzkrak_ast/GHUnitTests-Prefix.pch.pth GHUnitTests/GHUnitTests-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CTouch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app
-s397808136.620875
-e397808136.635734
+s397815070.272923
+e397815070.290471
 r1
 xTouch
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.appc4069f0812b6b741^77bfa20812b6b741^---0#0#0#--597"Touch Build/Products/Debug-iphonesimulator/GHUnitTests.app    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"4D941027-FBBE-4A23-8CAC-8230CE88FD04-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app3a08461e2db6b741^3e5c4a1e2db6b741^---0#0#0#--597"Touch Build/Products/Debug-iphonesimulator/GHUnitTests.app    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/GHUnitTests.app36"D67CD177-CDA9-47B4-8F93-50172EBA5D2E-
 
