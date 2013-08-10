@@ -21,10 +21,7 @@
 		7307CA7517B5AF6B00D1097A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA7417B5AF6B00D1097A /* SenTestingKit.framework */; };
 		7307CA7617B5AF6B00D1097A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5017B5AF6B00D1097A /* UIKit.framework */; };
 		7307CA7717B5AF6B00D1097A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5217B5AF6B00D1097A /* Foundation.framework */; };
-		7307CA7F17B5AF6B00D1097A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7307CA7D17B5AF6B00D1097A /* InfoPlist.strings */; };
-		7307CA8217B5AF6B00D1097A /* SampleTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8117B5AF6B00D1097A /* SampleTwitterTests.m */; };
 		7307CA8D17B5AFF100D1097A /* HHTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */; };
-		7307CA9117B5B01F00D1097A /* HHTwitterClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA9017B5B01F00D1097A /* HHTwitterClientTest.m */; };
 		7307CA9717B6046C00D1097A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5017B5AF6B00D1097A /* UIKit.framework */; };
 		7307CA9817B6046C00D1097A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5217B5AF6B00D1097A /* Foundation.framework */; };
 		7307CA9917B6046C00D1097A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5417B5AF6B00D1097A /* CoreGraphics.framework */; };
@@ -69,14 +66,8 @@
 		7307CA6C17B5AF6B00D1097A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HHViewController.xib; sourceTree = "<group>"; };
 		7307CA7317B5AF6B00D1097A /* SampleTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7307CA7417B5AF6B00D1097A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7307CA7C17B5AF6B00D1097A /* SampleTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleTwitterTests-Info.plist"; sourceTree = "<group>"; };
-		7307CA7E17B5AF6B00D1097A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7307CA8017B5AF6B00D1097A /* SampleTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleTwitterTests.h; sourceTree = "<group>"; };
-		7307CA8117B5AF6B00D1097A /* SampleTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleTwitterTests.m; sourceTree = "<group>"; };
 		7307CA8B17B5AFF100D1097A /* HHTwitterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HHTwitterClient.h; path = SampleTwitterTests/HHTwitterClient.h; sourceTree = SOURCE_ROOT; };
 		7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHTwitterClient.m; path = SampleTwitterTests/HHTwitterClient.m; sourceTree = SOURCE_ROOT; };
-		7307CA8F17B5B01F00D1097A /* HHTwitterClientTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTwitterClientTest.h; sourceTree = "<group>"; };
-		7307CA9017B5B01F00D1097A /* HHTwitterClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTwitterClientTest.m; sourceTree = "<group>"; };
 		7307CA9617B6046C00D1097A /* GHUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7307CA9C17B6046C00D1097A /* GHUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTests-Info.plist"; sourceTree = "<group>"; };
 		7307CA9E17B6046C00D1097A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -131,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				7307CA5617B5AF6B00D1097A /* SampleTwitter */,
-				7307CA7A17B5AF6B00D1097A /* SampleTwitterTests */,
 				7307CA9A17B6046C00D1097A /* GHUnitTests */,
 				7307CA4F17B5AF6B00D1097A /* Frameworks */,
 				7307CA4E17B5AF6B00D1097A /* Products */,
@@ -187,27 +177,6 @@
 				7307CA6217B5AF6B00D1097A /* Default.png */,
 				7307CA6417B5AF6B00D1097A /* Default@2x.png */,
 				7307CA6617B5AF6B00D1097A /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7307CA7A17B5AF6B00D1097A /* SampleTwitterTests */ = {
-			isa = PBXGroup;
-			children = (
-				7307CA8017B5AF6B00D1097A /* SampleTwitterTests.h */,
-				7307CA8117B5AF6B00D1097A /* SampleTwitterTests.m */,
-				7307CA8F17B5B01F00D1097A /* HHTwitterClientTest.h */,
-				7307CA9017B5B01F00D1097A /* HHTwitterClientTest.m */,
-				7307CA7B17B5AF6B00D1097A /* Supporting Files */,
-			);
-			path = SampleTwitterTests;
-			sourceTree = "<group>";
-		};
-		7307CA7B17B5AF6B00D1097A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7307CA7C17B5AF6B00D1097A /* SampleTwitterTests-Info.plist */,
-				7307CA7D17B5AF6B00D1097A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -340,7 +309,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7307CA7F17B5AF6B00D1097A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7307CA8217B5AF6B00D1097A /* SampleTwitterTests.m in Sources */,
-				7307CA9117B5B01F00D1097A /* HHTwitterClientTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,14 +425,6 @@
 				7307CA6C17B5AF6B00D1097A /* en */,
 			);
 			name = HHViewController.xib;
-			sourceTree = "<group>";
-		};
-		7307CA7D17B5AF6B00D1097A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7307CA7E17B5AF6B00D1097A /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 		7307CA9D17B6046C00D1097A /* InfoPlist.strings */ = {
