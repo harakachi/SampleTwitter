@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.m \
+  /Users/harada/Desktop/work/SampleTwitter/GHUnitTests/HHTwitterClientTest.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHUnit.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestCase.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestMacros.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/NSException+GHTestFailureExceptions.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/NSValue+GHValueFormatter.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTest.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHAsyncTestCase.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestSuite.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestGroup.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestRunner.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTesting.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestOperation.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTest+JUnitXML.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestGroup+JUnitXML.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHTestUtils.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHUnitIOSAppDelegate.h \
+  /Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS/GHViewTestCase.h \
+  /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.h

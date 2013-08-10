@@ -24,8 +24,19 @@
 		7307CA7F17B5AF6B00D1097A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7307CA7D17B5AF6B00D1097A /* InfoPlist.strings */; };
 		7307CA8217B5AF6B00D1097A /* SampleTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8117B5AF6B00D1097A /* SampleTwitterTests.m */; };
 		7307CA8D17B5AFF100D1097A /* HHTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */; };
-		7307CA8E17B5AFF100D1097A /* HHTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */; };
 		7307CA9117B5B01F00D1097A /* HHTwitterClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA9017B5B01F00D1097A /* HHTwitterClientTest.m */; };
+		7307CA9717B6046C00D1097A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5017B5AF6B00D1097A /* UIKit.framework */; };
+		7307CA9817B6046C00D1097A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5217B5AF6B00D1097A /* Foundation.framework */; };
+		7307CA9917B6046C00D1097A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CA5417B5AF6B00D1097A /* CoreGraphics.framework */; };
+		7307CA9F17B6046C00D1097A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7307CA9D17B6046C00D1097A /* InfoPlist.strings */; };
+		7307CAA117B6046C00D1097A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CAA017B6046C00D1097A /* main.m */; };
+		7307CAA717B6046C00D1097A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7307CAA617B6046C00D1097A /* Default.png */; };
+		7307CAA917B6046C00D1097A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7307CAA817B6046C00D1097A /* Default@2x.png */; };
+		7307CAAB17B6046C00D1097A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7307CAAA17B6046C00D1097A /* Default-568h@2x.png */; };
+		7307CAB017B6051F00D1097A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7307CAAF17B6051F00D1097A /* QuartzCore.framework */; };
+		73FE1D0217B6066A00C32BC6 /* HHTwitterClientTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73FE1D0117B6066A00C32BC6 /* HHTwitterClientTest.m */; };
+		73FE1D0317B6070600C32BC6 /* HHTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */; };
+		7D7F19A089924DA192BAE575 /* libPods-GHUnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9CBCCA94EF499AB99360AE /* libPods-GHUnitTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155475686317455EAB553799 /* Pods-GHUnitTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHUnitTests.xcconfig"; path = "Pods/Pods-GHUnitTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		7307CA4D17B5AF6B00D1097A /* SampleTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7307CA5017B5AF6B00D1097A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7307CA5217B5AF6B00D1097A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,6 +77,18 @@
 		7307CA8C17B5AFF100D1097A /* HHTwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HHTwitterClient.m; path = SampleTwitterTests/HHTwitterClient.m; sourceTree = SOURCE_ROOT; };
 		7307CA8F17B5B01F00D1097A /* HHTwitterClientTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTwitterClientTest.h; sourceTree = "<group>"; };
 		7307CA9017B5B01F00D1097A /* HHTwitterClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTwitterClientTest.m; sourceTree = "<group>"; };
+		7307CA9617B6046C00D1097A /* GHUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7307CA9C17B6046C00D1097A /* GHUnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTests-Info.plist"; sourceTree = "<group>"; };
+		7307CA9E17B6046C00D1097A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7307CAA017B6046C00D1097A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7307CAA217B6046C00D1097A /* GHUnitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		7307CAA617B6046C00D1097A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7307CAA817B6046C00D1097A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7307CAAA17B6046C00D1097A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7307CAAF17B6051F00D1097A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73FE1D0017B6066A00C32BC6 /* HHTwitterClientTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHTwitterClientTest.h; sourceTree = "<group>"; };
+		73FE1D0117B6066A00C32BC6 /* HHTwitterClientTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHTwitterClientTest.m; sourceTree = "<group>"; };
+		CC9CBCCA94EF499AB99360AE /* libPods-GHUnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GHUnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +112,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7307CA9317B6046C00D1097A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7307CAB017B6051F00D1097A /* QuartzCore.framework in Frameworks */,
+				7307CA9717B6046C00D1097A /* UIKit.framework in Frameworks */,
+				7307CA9817B6046C00D1097A /* Foundation.framework in Frameworks */,
+				7307CA9917B6046C00D1097A /* CoreGraphics.framework in Frameworks */,
+				7D7F19A089924DA192BAE575 /* libPods-GHUnitTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,8 +132,10 @@
 			children = (
 				7307CA5617B5AF6B00D1097A /* SampleTwitter */,
 				7307CA7A17B5AF6B00D1097A /* SampleTwitterTests */,
+				7307CA9A17B6046C00D1097A /* GHUnitTests */,
 				7307CA4F17B5AF6B00D1097A /* Frameworks */,
 				7307CA4E17B5AF6B00D1097A /* Products */,
+				155475686317455EAB553799 /* Pods-GHUnitTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +144,7 @@
 			children = (
 				7307CA4D17B5AF6B00D1097A /* SampleTwitter.app */,
 				7307CA7317B5AF6B00D1097A /* SampleTwitterTests.octest */,
+				7307CA9617B6046C00D1097A /* GHUnitTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,10 +152,12 @@
 		7307CA4F17B5AF6B00D1097A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7307CAAF17B6051F00D1097A /* QuartzCore.framework */,
 				7307CA5017B5AF6B00D1097A /* UIKit.framework */,
 				7307CA5217B5AF6B00D1097A /* Foundation.framework */,
 				7307CA5417B5AF6B00D1097A /* CoreGraphics.framework */,
 				7307CA7417B5AF6B00D1097A /* SenTestingKit.framework */,
+				CC9CBCCA94EF499AB99360AE /* libPods-GHUnitTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,6 +212,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7307CA9A17B6046C00D1097A /* GHUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				73FE1D0017B6066A00C32BC6 /* HHTwitterClientTest.h */,
+				73FE1D0117B6066A00C32BC6 /* HHTwitterClientTest.m */,
+				7307CA9B17B6046C00D1097A /* Supporting Files */,
+			);
+			path = GHUnitTests;
+			sourceTree = "<group>";
+		};
+		7307CA9B17B6046C00D1097A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7307CA9C17B6046C00D1097A /* GHUnitTests-Info.plist */,
+				7307CA9D17B6046C00D1097A /* InfoPlist.strings */,
+				7307CAA017B6046C00D1097A /* main.m */,
+				7307CAA217B6046C00D1097A /* GHUnitTests-Prefix.pch */,
+				7307CAA617B6046C00D1097A /* Default.png */,
+				7307CAA817B6046C00D1097A /* Default@2x.png */,
+				7307CAAA17B6046C00D1097A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,6 +275,25 @@
 			productReference = 7307CA7317B5AF6B00D1097A /* SampleTwitterTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		7307CA9517B6046C00D1097A /* GHUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7307CAAC17B6046C00D1097A /* Build configuration list for PBXNativeTarget "GHUnitTests" */;
+			buildPhases = (
+				730B93D56DEF4A47918628E5 /* Check Pods Manifest.lock */,
+				7307CA9217B6046C00D1097A /* Sources */,
+				7307CA9317B6046C00D1097A /* Frameworks */,
+				7307CA9417B6046C00D1097A /* Resources */,
+				33C79F3B4C8649B085A1B28E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitTests;
+			productName = GHUnitTests;
+			productReference = 7307CA9617B6046C00D1097A /* GHUnitTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +318,7 @@
 			targets = (
 				7307CA4C17B5AF6B00D1097A /* SampleTwitter */,
 				7307CA7217B5AF6B00D1097A /* SampleTwitterTests */,
+				7307CA9517B6046C00D1097A /* GHUnitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +344,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7307CA9417B6046C00D1097A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7307CA9F17B6046C00D1097A /* InfoPlist.strings in Resources */,
+				7307CAA717B6046C00D1097A /* Default.png in Resources */,
+				7307CAA917B6046C00D1097A /* Default@2x.png in Resources */,
+				7307CAAB17B6046C00D1097A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		33C79F3B4C8649B085A1B28E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GHUnitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7307CA7117B5AF6B00D1097A /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,6 +385,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		730B93D56DEF4A47918628E5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -294,8 +420,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7307CA8217B5AF6B00D1097A /* SampleTwitterTests.m in Sources */,
-				7307CA8E17B5AFF100D1097A /* HHTwitterClient.m in Sources */,
 				7307CA9117B5B01F00D1097A /* HHTwitterClientTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7307CA9217B6046C00D1097A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7307CAA117B6046C00D1097A /* main.m in Sources */,
+				73FE1D0217B6066A00C32BC6 /* HHTwitterClientTest.m in Sources */,
+				73FE1D0317B6070600C32BC6 /* HHTwitterClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +465,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				7307CA7E17B5AF6B00D1097A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7307CA9D17B6046C00D1097A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7307CA9E17B6046C00D1097A /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -449,6 +592,40 @@
 			};
 			name = Release;
 		};
+		7307CAAD17B6046C00D1097A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155475686317455EAB553799 /* Pods-GHUnitTests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7307CAAE17B6046C00D1097A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155475686317455EAB553799 /* Pods-GHUnitTests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTests/GHUnitTests-Prefix.pch";
+				INFOPLIST_FILE = "GHUnitTests/GHUnitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -468,6 +645,7 @@
 				7307CA8717B5AF6B00D1097A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7307CA8817B5AF6B00D1097A /* Build configuration list for PBXNativeTarget "SampleTwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +654,16 @@
 				7307CA8A17B5AF6B00D1097A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7307CAAC17B6046C00D1097A /* Build configuration list for PBXNativeTarget "GHUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7307CAAD17B6046C00D1097A /* Debug */,
+				7307CAAE17B6046C00D1097A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

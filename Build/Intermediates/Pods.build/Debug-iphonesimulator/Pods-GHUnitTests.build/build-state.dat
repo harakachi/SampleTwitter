@@ -1,0 +1,71 @@
+TPods-GHUnitTests
+v5
+r1
+cCheck dependencies
+cCompileC /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o /Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005177CC97000000000062AD10
+t1366805655
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051BE9CDE0000000000000110
+t1371446494
+s272
+
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o
+t1376112242
+s3312
+
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests.LinkFileList
+c000000005205CE7200000000000000A2
+t1376112242
+s162
+
+N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests-GHUnitIOS.a
+c000000005205CE720000000000158BB8
+t1376112242
+s1412024
+
+N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a
+t1376112242
+s1415528
+
+N/Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m
+c000000005205CDDB0000000000000088
+t1376112091
+s136
+
+CBuild AST from /Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9815daff07b6b741^279fdaff07b6b741^---0#1#0#--18"Check dependencies36"B0793CC5-4EE8-45E6-BA25-767A8C1107EA-
+
+CCompileC /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o /Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397805042.712220
+e397805042.873578
+r1
+xCompileC
+x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o
+x/Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m548db6f205b6b741^8812e1f205b6b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m0000000000000000^3679"CompileC /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o Pods-GHUnitTests-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Pods-GHUnitTests-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Pods-GHUnitTests-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Pods-GHUnitTests-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Pods-GHUnitTests-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.dia -c /Users/harada/Desktop/work/SampleTwitter/Pods/Pods-GHUnitTests-dummy.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests-dummy.o36"40A66C20-6277-4229-A37F-1C08270B4EC7-
+
+CLibtool /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a normal i386
+s397805042.879864
+e397805042.933544
+r1
+xLibtool
+x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Libtool /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a normal i3867558e1f205b6b741^65fdeef205b6b741^-246"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests-GHUnitIOS.a(GTMObjC2Runtime.o) has no symbols-0#0#0#--1251"Libtool /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a normal i386    cd /Users/harada/Desktop/work/SampleTwitter/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GHUnitTests.build/Objects-normal/i386/Pods-GHUnitTests.LinkFileList -framework Foundation -lPods-GHUnitTests-GHUnitIOS -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods-GHUnitTests.a36"CCB4CAF9-E615-4DBF-896A-BDF782D5F9FB-
+
