@@ -20,7 +20,17 @@
 - (void)testRequestPublicTimeline
 {
     HHTwitterClient *client = [[HHTwitterClient alloc] init];
-    [client requestPublicTimeline];
+    __block BOOL calledBack = NO;
+    
+    [client requestPublicTimeline:^(TwitterClientResponseStatus status) {
+        calledBack = YES;
+    }];
+    
+    NSDate *loopUntil = [NSDate dateWithTimeIntervalSinceNow:10];
+    while (calledBack == NO && [loopUntil timeIntervalSinceNow] > 0) {
+        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode
+                                 beforeDate:loopUntil];
+    }
     GHAssertEquals([client tweetCount], 20, nil);
 }
 @end

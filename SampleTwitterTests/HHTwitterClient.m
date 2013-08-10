@@ -7,6 +7,7 @@
 //
 
 #import "HHTwitterClient.h"
+#import "HHTweet.h"
 
 @implementation HHTwitterClient
 
@@ -20,30 +21,33 @@
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback
 {
-    NSURL *url = [NSURL URLWithString:@"https://api.twitter.com/1/statuses/public_timeline.json?count=20"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    NSURL        *url =
+        [NSURL URLWithString:@"http://labs.unfindable.net/public_timeline/json.php"];
+    NSURLRequest *request =
+        [NSURLRequest requestWithURL:url];
+    
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
-                                                                                        success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON){
-                                                                                            
-                                                                                            NSLog(@"%@", JSON);
-                                                                                            callback(TwitterClientResponseStatusSuccess);
-                                                                                            
-                                                                                        }
-                                                                                        failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON){
-                                                                                            
-                                                                                            callback(TwitterClientResponseStatusFail);
-                                                                                        }];
-    //NSOperationQueue *queue = [[[NSOperationQueue alloc] init] autorelease];
-    //[queue addOperation:operation];
+                success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON){
+                    
+                    [_tweets removeAllObjects];
+                    NSArray *tweetsJSON = JSON;
+                    for (id tweetJSON in tweetsJSON) {
+                        if([_tweets count] == 20){
+                            break;
+                        }
+                        [_tweets addObject:[HHTweet tweetWithJSON:tweetJSON]];
+                    }
+                    callback(TwitterClientResponseStatusSuccess);
+                }
+                failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON){
+                    callback(TwitterClientResponseStatusFail);
+                }];
+    
+    NSOperationQueue *queue = [[NSOperationQueue alloc] init];
+    [queue addOperation:operation];
     
 }
 
-- (void)requestPublicTimeline
-{
-    for (int i=0; i < 20; i++) {
-        [_tweets addObject:@"a"];
-    }
-}
 - (int)tweetCount
 {
     return [_tweets count];

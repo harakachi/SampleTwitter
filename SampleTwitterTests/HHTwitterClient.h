@@ -20,7 +20,6 @@ typedef enum {
 }
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback;
-- (void)requestPublicTimeline;
 - (int)tweetCount;
 
 @end
