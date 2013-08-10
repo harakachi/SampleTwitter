@@ -28,14 +28,10 @@
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
                 success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON){
-                    
                     [_tweets removeAllObjects];
-                    NSArray *tweetsJSON = JSON;
-                    for (id tweetJSON in tweetsJSON) {
-                        if([_tweets count] == 20){
-                            break;
-                        }
+                    for (id tweetJSON in JSON) {
                         [_tweets addObject:[HHTweet tweetWithJSON:tweetJSON]];
+                        if([_tweets count] == 20){ break; }
                     }
                     callback(TwitterClientResponseStatusSuccess);
                 }
