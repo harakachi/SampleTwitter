@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AFNetworking.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods-GHUnitTests-GHUnitIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -14,10 +19,35 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0A9933B0919244F89E6B16A6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AEEA9481368402B9B15469C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>281391F3F53D4A29BCE90FA8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4D7356F0E3064F789443F073</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B05FDD919D3848F0B6482E16</key>
 		<dict>
 			<key>primary</key>
 			<true/>

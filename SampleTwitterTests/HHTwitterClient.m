@@ -7,7 +7,26 @@
 //
 
 #import "HHTwitterClient.h"
+#import "AFJSONRequestOperation.h"
 
 @implementation HHTwitterClient
+
+- (id)init
+{
+    if ([super init]) {
+        _tweets = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+- (void)requestPublicTimeline
+{
+    for (int i=0; i < 20; i++) {
+        [_tweets addObject:@"a"];
+    }
+}
+- (int)tweetCount
+{
+    return [_tweets count];
+}
 
 @end

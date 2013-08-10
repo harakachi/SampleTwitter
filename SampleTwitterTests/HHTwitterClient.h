@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface HHTwitterClient : NSObject
+{
+    NSMutableArray *_tweets;
+}
+
+- (void)requestPublicTimeline;
+- (int)tweetCount;
 
 @end

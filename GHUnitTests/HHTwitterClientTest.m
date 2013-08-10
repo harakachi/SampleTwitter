@@ -11,10 +11,16 @@
 
 @implementation HHTwitterClientTest
 
-- (void)testExample
+- (void)testMakeInstance
 {
-    HHTwitterClient *t = [[HHTwitterClient alloc] init];
-    GHAssertNotNil(t, nil);
+    HHTwitterClient *client = [[HHTwitterClient alloc] init];
+    GHAssertNotNil(client, nil);
 }
 
+- (void)testRequestPublicTimeline
+{
+    HHTwitterClient *client = [[HHTwitterClient alloc] init];
+    [client requestPublicTimeline];
+    GHAssertEquals([client tweetCount], 20, nil);
+}
 @end
