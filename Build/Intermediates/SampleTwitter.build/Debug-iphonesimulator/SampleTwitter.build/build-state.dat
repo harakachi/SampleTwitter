@@ -3,24 +3,32 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist SampleTwitter/SampleTwitter-Info.plist
-cProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh
+cProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter normal i386
 cGenerateDSYMFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter
 cCopyStringsFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/en.lproj/InfoPlist.strings SampleTwitter/en.lproj/InfoPlist.strings
-cCpResource SampleTwitter/Default@2x.png Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png
 cCpResource SampleTwitter/Default.png Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default.png
+cCpResource SampleTwitter/Default@2x.png Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png
 cCpResource SampleTwitter/Default-568h@2x.png Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default-568h@2x.png
 cCompileXIB /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/en.lproj/HHViewController.xib
+cPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh
 cTouch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
 c0000000051BE9CDE0000000000000110
 t1371446494
 s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Accounts.framework/Accounts
+c000000005177CCAD0000000000028740
+t1366805677
+s165696
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000005177CCAE0000000000228FE0
@@ -37,6 +45,21 @@ c000000005177CCAF00000000000015F7
 t1366805679
 s5623
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005177CCB200000000000BCC20
+t1366805682
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005177CCB3000000000006CC50
+t1366805683
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Twitter.framework/Twitter
+c000000005177CCB30000000000005140
+t1366805683
+s20800
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000005177CCB30000000000000E8D
 t1366805683
@@ -52,145 +75,196 @@ c000000005177CCC20000000000001B73
 t1366805698
 s7027
 
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth
+t1376199215
+s4678468
+
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch.pth
 t1376090105
 s4678392
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o
-t1376090106
+t1376199215
 s90016
 
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o
+t1376199215
+s9192
+
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o
-t1376090324
-s3280
+t1376199348
+s26284
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o
-t1376090106
+t1376199215
 s67572
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/SampleTwitter.LinkFileList
-c00000000520578D30000000000000278
-t1376090323
-s632
+c000000005207222F0000000000000311
+t1376199215
+s785
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o
-t1376090106
+t1376199215
 s3296
 
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh
+c000000005207222F000000000000002F
+t1376199215
+s47
+
+N/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh
+c000000005207222F0000000000000103
+t1376199215
+s259
+
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app
-t1376090324
+t1376199348
 s306
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM
-t1376090324
+t1376199348
 s102
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default-568h@2x.png
-t1376090106
+t1376123376
 s18594
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default.png
-t1376090106
+t1376123376
 s6540
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png
-t1376090106
+t1376123376
 s16107
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist
-t1376090104
+t1376123376
 s811
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/PkgInfo
-t1376090104
+t1376123376
 s8
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter
-t1376090324
-s22612
+t1376199348
+s365580
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/en.lproj/HHViewController.nib
-t1376090106
-s862
+t1376123376
+s1580
 
 N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/en.lproj/InfoPlist.strings
-t1376090106
+t1376123376
 s42
 
+N/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/libPods.a
+c000000005207222E00000000000CC638
+t1376199214
+s837176
+
+N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFHTTPRequestOperation.h
+c000000005205F9F00000000000001907
+t1376123376
+s6407
+
+N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFJSONRequestOperation.h
+c000000005205F9F00000000000000E83
+t1376123376
+s3715
+
+N/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking/AFURLConnectionOperation.h
+c000000005205F9F00000000000004A28
+t1376123376
+s18984
+
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/Default-568h@2x.png
-c00000000515C9E6200000000000048A2
-t1365024354
+c000000005205F9F000000000000048A2
+t1376123376
 s18594
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/Default.png
-c00000000515C9E62000000000000198C
-t1365024354
+c000000005205F9F0000000000000198C
+t1376123376
 s6540
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/Default@2x.png
-c00000000515C9E620000000000003EEB
-t1365024354
+c000000005205F9F00000000000003EEB
+t1376123376
 s16107
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.h
-c00000000520577EB0000000000000184
-t1376090091
+c000000005205F9F00000000000000184
+t1376123376
 s388
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m
-c00000000520577EB000000000000091B
-t1376090091
+c000000005205F9F0000000000000091B
+t1376123376
 s2331
 
+N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.h
+c0000000052060356000000000000015E
+t1376125782
+s350
+
+N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m
+c00000000520604C900000000000001AE
+t1376126153
+s430
+
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.h
-c00000000520577EB00000000000000EB
-t1376090091
+c000000005205F9F000000000000000EB
+t1376123376
 s235
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m
-c00000000520577EB0000000000000205
-t1376090091
+c000000005205F9F00000000000000205
+t1376123376
 s517
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/SampleTwitter-Prefix.pch
-c00000000520577EB0000000000000149
-t1376090091
+c000000005205F9F00000000000000149
+t1376123376
 s329
 i<Availability.h>
 i<UIKit/UIKit.h>
 i<Foundation/Foundation.h>
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/en.lproj/HHViewController.xib
-c000000005205D1330000000000002F1C
-t1376112947
+c000000005205F9F00000000000002F1C
+t1376123376
 s12060
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/en.lproj/InfoPlist.strings
-c00000000520577EB000000000000002D
-t1376090091
+c000000005205F9F0000000000000002D
+t1376123376
 s45
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m
-c00000000520577EB0000000000000164
-t1376090091
+c000000005205F9F00000000000000164
+t1376123376
 s356
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.h
-c000000005205787100000000000000EB
-t1376090225
-s235
+c0000000052071EC100000000000002B2
+t1376198337
+s690
 
 N/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m
-c000000005205787100000000000000DF
-t1376090225
-s223
+c000000005207236A00000000000008EC
+t1376199530
+s2284
 
 NSampleTwitter/SampleTwitter-Info.plist
-c00000000520577EB000000000000048B
-t1376090091
+c000000005205F9F0000000000000048B
+t1376123376
 s1163
 
 CBuild AST from /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m
+r0
+
+CBuild AST from /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m
 r0
 
 CBuild AST from /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m
@@ -204,11 +278,11 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciese09eefb308b6b741^0daaf5b308b6b741^---0#1#0#--18"Check dependencies36"F1CB5374-BF41-4379-8CEF-FD55DF4E0DE7-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies100494ea5ab7b741^414a94ea5ab7b741^---0#1#0#--18"Check dependencies36"8CFC5288-F070-48DC-8D9E-5E74B37A3A5D-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397782905.696916
-e397782906.062975
+s397892015.394897
+e397892015.536299
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o
@@ -217,11 +291,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m2191b279afb5b741^641f107aafb5b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m0000000000000000^3783"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o SampleTwitter/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o36"8604F935-48CE-4461-9155-68670CC6C2F8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.mb03b65af59b7b741^fd4c89af59b7b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m0000000000000000^3709"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o SampleTwitter/HHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHAppDelegate.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHAppDelegate.o36"24038AB3-C606-4E31-B42A-03DEDD10A2C9-
+
+CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397892015.476975
+e397892015.541918
+r1
+xCompileC
+xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o
+x/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m5e497aaf59b7b741^66bb8aaf59b7b741^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m0000000000000000^3673"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o SampleTwitter/HHTweet.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHTweet.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTweet.o36"F12D4CD8-DF61-4EC1-B047-9429A24AC962-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397783124.014532
-e397783124.084965
+s397892330.648986
+e397892330.741633
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o
@@ -230,11 +317,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m33e10354b0b5b741^ecc01554b0b5b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m0000000000000000^3805"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o36"740EA77C-9AF0-4869-B1EC-5A97B10AA2CD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m7348a6ea5ab7b741^27dabdea5ab7b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m0000000000000000^3731"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o SampleTwitterTests/HHTwitterClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitterTests/HHTwitterClient.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHTwitterClient.o36"815883AD-5798-4D66-84DB-C2BB59955A6D-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397782905.697098
-e397782906.069158
+s397892015.394882
+e397892015.545253
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o
@@ -243,11 +330,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m809ab279afb5b741^35b4117aafb5b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m0000000000000000^3801"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o SampleTwitter/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o36"77116EA4-02FC-48D5-9B72-7C9B790A6E56-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m354465af59b7b741^5f958baf59b7b741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m0000000000000000^3727"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o SampleTwitter/HHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/HHViewController.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/HHViewController.o36"6A713C28-EB42-43C2-B24A-38FE20F65C84-
 
 CCompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s397782905.696757
-e397782906.061059
+s397892015.394883
+e397892015.475603
 r1
 xCompileC
 xBuild/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o
@@ -256,7 +343,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.mec89b279afb5b741^7ba20f7aafb5b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m0000000000000000^3729"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o SampleTwitter/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o36"3AA5A7D4-D491-4EA5-916E-9A49AEDEF3A3-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m9d4765af59b7b741^66c079af59b7b741^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m0000000000000000^3655"CompileC Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o SampleTwitter/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -include /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/main.m -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/main.o36"A533E06B-E302-4D5A-A2C8-53665DA36702-
 
 CCompileXIB /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/en.lproj/HHViewController.xib
 s397805747.999751
@@ -304,23 +391,45 @@ xBuild/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.pngb41e727aafb5b741^91b8737aafb5b741^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png000000000080d041^637"CpResource "SampleTwitter/Default@2x.png" "Build/Products/Debug-iphonesimulator/SampleTwitter.app/Default@2x.png"    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/Default@2x.png" /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app36"46FB8817-A630-4CF5-BC85-B7BAEE22AB91-
 
 CGenerateDSYMFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter
-s397783124.315859
-e397783124.371333
+s397892330.813295
+e397892330.868781
 r1
 xGenerateDSYMFile
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generate /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYMdbf75054b0b5b741^6b0f5f54b0b5b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM/0000000000000000^703"GenerateDSYMFile Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM36"83950FE8-FAFD-402D-9B1D-C78654303044-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Generate /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM064cd0ea5ab7b741^be69deea5ab7b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM/0000000000000000^703"GenerateDSYMFile Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app.dSYM36"5F031954-BA6D-497E-B289-005A17C353A3-
 
 CLd /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter normal i386
-s397783124.091831
-e397783124.309028
+s397892330.748289
+e397892330.806891
 r1
 xLd
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter
 xnormal
 xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter51a01754b0b5b741^221c4f54b0b5b741^---0#0#0#--1249"Ld Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter normal i386    cd /Users/harada/Desktop/work/SampleTwitter    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/SampleTwitter.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter36"2F9ABF33-9D31-4DD0-A172-DE74F821177C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter50a8bfea5ab7b741^cd90ceea5ab7b741^---0#0#0#--1467"Ld Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter normal i386    cd /Users/harada/Desktop/work/SampleTwitter    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator -filelist /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Objects-normal/i386/SampleTwitter.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework Twitter -framework Accounts -framework SystemConfiguration -framework MobileCoreServices -framework UIKit -framework Foundation -framework CoreGraphics -lPods -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/SampleTwitter36"89FF0D6C-99C2-4574-B894-85D9B2DEA46F-
+
+CPhaseScriptExecution "Check Pods Manifest.lock" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh
+s397892330.597810
+e397892330.634754
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'43e799ea5ab7b741^897da2ea5ab7b741^---0#0#0#--386"PhaseScriptExecution "Check Pods Manifest.lock" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6F94714A6FD540A5BE3F9A60.sh36"165685DD-023A-4D00-82F6-9C7E6FB18731-
+
+CPhaseScriptExecution "Copy Pods Resources" /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh
+s397892330.886512
+e397892330.966590
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'dc65e3ea5ab7b741^a871f7ea5ab7b741^-112"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.003(21%IDEActivityLogMessage2@28"building file list ... done-397892330#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-397892330#29#50#-0#-----2@33"total size is 0  speedup is 0.00-397892330#79#33#-0#-----0#0#0#--381"PhaseScriptExecution "Copy Pods Resources" Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh    cd /Users/harada/Desktop/work/SampleTwitter    /bin/sh -c /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/Script-6D92F1CF997E4C07B0819CC2.sh36"8DD26C7E-570F-4EDF-8CF2-62D3044B675C-
 
 CProcessInfoPlistFile /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist SampleTwitter/SampleTwitter-Info.plist
 s397782904.923838
@@ -330,6 +439,19 @@ xProcessInfoPlistFile
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist
 xSampleTwitter/SampleTwitter-Info.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process SampleTwitter/SampleTwitter-Info.plist01a6ec78afb5b741^ce36ef78afb5b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/SampleTwitter-Info.plist0000000000000000^725"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist SampleTwitter/SampleTwitter-Info.plist    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SampleTwitter/SampleTwitter-Info.plist -genpkginfo /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app/Info.plist36"CA97EC31-2696-40D7-BEC7-DAB53E94D9C3-
+
+CProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s397892015.090312
+e397892015.387834
+r1
+xProcessPCH
+x/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth
+xSampleTwitter/SampleTwitter-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SampleTwitter/SampleTwitter-Prefix.pchdc4a17af59b7b741^914863af59b7b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/harada/Desktop/work/SampleTwitter/SampleTwitter/SampleTwitter-Prefix.pch0000000000000000^3568"ProcessPCH Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/harada/Desktop/work/SampleTwitter    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-generated-files.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-own-target-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-all-target-headers.hmap -iquote /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/SampleTwitter-project-headers.hmap -I/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/include -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/AFNetworking -I/Users/harada/Desktop/work/SampleTwitter/Pods/Headers/GHUnitIOS -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources/i386 -I/Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/SampleTwitter.build/Debug-iphonesimulator/SampleTwitter.build/DerivedSources -F/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.dia -c /Users/harada/Desktop/work/SampleTwitter/SampleTwitter/SampleTwitter-Prefix.pch -o /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.pth -MMD -MT dependencies -MF /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-bihdrqgrvasplkgpgchaybicfqhd/SampleTwitter-Prefix.pch.d36"46E715F2-535C-4F4D-B3FE-83774B786BF9-
 
 CProcessPCH /Users/harada/Desktop/work/SampleTwitter/Build/Intermediates/PrecompiledHeaders/SampleTwitter-Prefix-ebljzipfslfxvmgsnlxbhpppkbuf/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s397782904.937165
@@ -350,11 +472,14 @@ r0
 CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/SampleTwitter-gyxfqxhnmpguwfegszwtomgqtent/Index/PrecompiledHeaders/SampleTwitter-Prefix-dkssmjmohebdfxdmuvrhpyczmxlw_ast/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
+CProcessPCH /Users/harada/Library/Developer/Xcode/DerivedData/SampleTwitter-gyxfqxhnmpguwfegszwtomgqtent/Index/PrecompiledHeaders/SampleTwitter-Prefix-fpuneywrzjguabflqdxbjanchyaj_ast/SampleTwitter-Prefix.pch.pth SampleTwitter/SampleTwitter-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
 CTouch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app
-s397805749.288201
-e397805749.305493
+s397892330.974477
+e397892330.988341
 r1
 xTouch
 x/Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.appefe649b508b6b741^44344eb508b6b741^---0#0#0#--601"Touch Build/Products/Debug-iphonesimulator/SampleTwitter.app    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448/bin:/Users/harada/.rvm/gems/ruby-1.9.3-p448@global/bin:/Users/harada/.rvm/rubies/ruby-1.9.3-p448/bin:/Users/harada/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app36"DE43766F-40F9-4917-A71E-14BFCB1A8897-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Touch /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.appf089f9ea5ab7b741^9703fdea5ab7b741^---0#0#0#--422"Touch Build/Products/Debug-iphonesimulator/SampleTwitter.app    cd /Users/harada/Desktop/work/SampleTwitter    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/harada/Desktop/work/SampleTwitter/Build/Products/Debug-iphonesimulator/SampleTwitter.app36"F9D8E438-D642-4401-A892-4F5D93625B0D-
 

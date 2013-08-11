@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
+
 #import "AFJSONRequestOperation.h"
 
 typedef enum {
@@ -17,6 +20,9 @@ typedef enum {
 @interface HHTwitterClient : NSObject
 {
     NSMutableArray *_tweets;
+    ACAccount      *_account;
+    ACAccountStore *_accountStore;
+    ACAccountType  *_accountType;
 }
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback;

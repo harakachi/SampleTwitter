@@ -14,9 +14,25 @@
 - (id)init
 {
     if ([super init]) {
-        _tweets = [[NSMutableArray alloc] init];
+        _tweets       = [[NSMutableArray alloc] init];
+        _accountStore = [[ACAccountStore alloc] init];
+        _accountType  = [_accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
     }
+    [self buildAccountSetting];
     return self;
+}
+
+- (void)buildAccountSetting
+{
+    [_accountStore requestAccessToAccountsWithType:_accountType
+                                           options:nil
+                                        completion:^(BOOL granted, NSError *error) {
+                                if (granted) {
+                                    if (_account == nil) {
+                                        _account = [[_accountStore accountsWithAccountType:_accountType] objectAtIndex:0];
+                                    }
+                                }
+                            }];
 }
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback
