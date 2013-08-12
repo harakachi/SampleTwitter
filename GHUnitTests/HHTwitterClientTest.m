@@ -16,7 +16,19 @@
     HHTwitterClient *client = [[HHTwitterClient alloc] init];
     GHAssertNotNil(client, nil);
 }
-
+- (void)testBuildSetting
+{
+    HHTwitterClient *client = [[HHTwitterClient alloc] init];
+    [client buildAccountSetting];
+    // アカウント取得のタイミングが非同期なので、このAssert時点ではアカウントが取得できない
+    GHAssertNotNil([client getAccount], nil);
+}
+- (void)testAccountsCount
+{
+    HHTwitterClient *client = [[HHTwitterClient alloc] init];
+    GHAssertTrue(([client accountsCount] > 0), nil);
+}
+/*
 - (void)testRequestPublicTimeline
 {
     HHTwitterClient *client = [[HHTwitterClient alloc] init];
@@ -33,4 +45,5 @@
     }
     GHAssertEquals([client tweetCount], 20, nil);
 }
+ */
 @end

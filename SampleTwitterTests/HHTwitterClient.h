@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Twitter/Twitter.h>
+#import <Social/Social.h>
 #import <Accounts/Accounts.h>
 
 #import "AFJSONRequestOperation.h"
@@ -27,5 +27,8 @@ typedef enum {
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback;
 - (int)tweetCount;
+- (int)accountsCount;
+- (void)buildAccountSetting;
+- (ACAccount *)getAccount;
 
 @end

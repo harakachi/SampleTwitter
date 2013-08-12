@@ -7,6 +7,8 @@
 //
 
 #import "HHViewController.h"
+#import "HHTwitterClient.h"
+#import <Accounts/Accounts.h>
 
 @interface HHViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HHTwitterClient *tc = [[HHTwitterClient alloc] init];
+    [tc buildAccountSetting];
 }
 
 - (void)didReceiveMemoryWarning

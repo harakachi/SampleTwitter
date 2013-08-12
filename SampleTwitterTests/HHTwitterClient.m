@@ -18,21 +18,35 @@
         _accountStore = [[ACAccountStore alloc] init];
         _accountType  = [_accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
     }
-    [self buildAccountSetting];
     return self;
+}
+
+- (int)accountsCount
+{
+    NSArray *accounts = [_accountStore accountsWithAccountType:_accountType];
+    return [accounts count];
+    
 }
 
 - (void)buildAccountSetting
 {
-    [_accountStore requestAccessToAccountsWithType:_accountType
-                                           options:nil
-                                        completion:^(BOOL granted, NSError *error) {
-                                if (granted) {
-                                    if (_account == nil) {
-                                        _account = [[_accountStore accountsWithAccountType:_accountType] objectAtIndex:0];
-                                    }
-                                }
-                            }];
+    [_accountStore
+        requestAccessToAccountsWithType:_accountType
+        options:nil
+        completion:^(BOOL granted, NSError *error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                if (!granted) {
+                    NSLog(@"User denied to access twitter account.");
+                    return;
+                }
+                _account = [[_accountStore accountsWithAccountType:_accountType] objectAtIndex:0];
+            });
+        }
+    ];
+}
+
+- (ACAccount *)getAccount{
+    return _account;
 }
 
 - (void)requestPublicTimeline:(void (^)(TwitterClientResponseStatus status))callback
